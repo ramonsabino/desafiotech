@@ -2,12 +2,16 @@ DESAFIO TECH(AUTOMAÇÃO)
 
 
 ############################################################
+
+
 CLONE O REPOSITÓRIO 
 
 $ git clone https://github.com/ramonsabino/desafiotech
 
 
 ##########################################################
+
+
 PARA EXECUTAR SIGA OS SEGUINTES PASSO
 
 1.0 ABRA O TERMINAL NA PASTA DO DIRETORIO E EXECUTE O COMANDO "py manage.py makemigrations"
