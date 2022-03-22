@@ -1,7 +1,9 @@
 from django.urls import path
-from .views import IndexView
+
+from . import views
 
 urlpatterns = [
-    path('', IndexView.as_view(), name="inicio")
-
+  path('', views.index, name='index'),
+  path('usuarios', views.usuarios, name='usuarios'),
+  path('json', views.json, name='json'),
 ]
